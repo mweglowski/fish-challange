@@ -1,0 +1,144 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Quicksand;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(https://wallpapermemory.com/uploads/210/lake-background-full-hd-1080p-203235.jpg);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#advice {
+    font-size: 28px;
+    margin: 35px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 700px;
+    margin-top: 40px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0.6em 0.8em black;
+}
+
+#picture {
+    width: 600px;
+    border: 2px solid lightgray;
+    border-radius: 30px;
+}
+/* #picture:hover {
+    width: 900px;
+    box-shadow: 0 10px 10px black;
+    position: relative;
+    right: 150px;
+    cursor: pointer;
+} */
+
+#question-container {
+    padding: 20px;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 15px;
+    margin: 20px 0;
+}
+
+#title {
+    align-self: center;
+    font-size: 80px;
+}
+
+#question {
+    align-self: center;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.btn {
+    background-color: rgb(219, 217, 121, 0.1);
+    font-size: 30px;
+    font-weight: 600;
+    border: 3px solid rgb(47, 60, 77);
+    border-width: 2px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(47, 60, 77);
+    padding: 10px 30px;
+    transition-duration: 0.2s;
+}
+.btn:hover {
+    background-color:rgba(175, 248, 255, 0.8);
+    color: black;
+    border-color: black;
+    box-shadow: 0 5px 5px gray;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#start-btn, #restart-btn, #next-btn {
+    font-size: 40px;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color:lawngreen;
+    border-color:rgb(30, 129, 30);
+    color: rgb(30, 129, 30);
+}
+.correct:hover {
+    background-color:lawngreen;
+    border-color: black;
+    color: black;
+}
+
+.wrong {
+    background-color:orangered;
+    border-color: rgb(121, 1, 1);
+    color: rgb(121, 1, 1);
+}
+.wrong:hover {
+    background-color:orangered;
+    border-color: black;
+    color: black;
+}
+
+#thanks {
+    font-size: 30px;
+}
+
+#result {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#counter {
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+}
+
+#main-page-btn {
+    font-size: 20px;
+}

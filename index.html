@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=KoHo">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <script defer src="main.js"></script>
+    <title>Fish Challange</title>
+</head>
+<body>
+    <div class="container">
+        <div id="main-info">
+            <h1 id="title">Fish Challange</h1>
+        
+            <div id="advice">Click this button to start.</div>
+        </div>    
+        <div id="thanks" class="hide">Thank you for taking the quiz.</div>
+        <div id="result" class="hide"></div>
+
+        <div id="question-container" class="hide">
+            <img id="picture" src="https://wdk.cmc-gallery.pl/foto_kontent/amurf.jpg">
+
+            <div id="question">What's that fish?</div>
+
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start-btn" class="btn">Start</button>
+            <button id="restart-btn" class="btn hide">Restart</button>
+            <button id="next-btn" class="btn hide">Next</button>
+        </div>
+        <div id="footer">
+            <div id="counter"></div>
+            <button id="main-page-btn" class="btn hide">Main Page</button>
+        </div>
+    </div>
+</body>
+</html>
